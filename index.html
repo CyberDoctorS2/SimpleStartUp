@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <title>Sample simple web</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class='navbar-item navbar-left'><img class='navbar-logo' src='assets/logo_white.png'> &nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">NEWS</span></div>
+        <div class='navbar-item navbar-left'><img class='navbar-logo' src='lol.jpg'> &nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">NEWS</span></div>
         <div class='navbar-item navbar-bet'>
             <div class='navbar-bet-item'>TITLE</div>
             <div class='navbar-bet-item'>TITLE</div>
@@ -20,5 +19,34 @@
         </div>
         <div class='navbar-item navbar-right'>SETTINGS</div>
     </nav>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            height: 3rem;
+            width: 100%;
+            background-color: #36315A;
+            color: white;
+        }
+        .navbar-item{
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .navbar-bet{
+            max-width: 700px;
+            width: 80%;
+            height: 100%;
+            justify-content: space-around;
+        }
+        .navbar-logo{
+            height: 60%;
+        }
+    </style>
 </body>
 </html>
