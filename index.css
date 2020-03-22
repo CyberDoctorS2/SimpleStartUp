@@ -25,3 +25,136 @@ body{
 .navbar-logo{
     height: 60%;
 }
+main{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+main > div{
+    padding-top: 2rem;
+}
+.caption{
+    font-weight: bold;
+    padding: 1rem;
+}
+.rounded{
+    border-radius: 1rem;
+}
+.advice{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.advice-item{
+    background-color: #36315A;
+    display: flex;
+    width: 48%;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+.trending-box{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.trending-item{
+    background-color: #36315A;
+    height: 18rem;
+    width: 19%;
+}
+.trending-item-info{
+    position: relative;
+    top: 75%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.trending-item-cap{
+    font-size: 1.4rem;
+}
+.recommend-box{
+    display: flex;
+    justify-content: space-between;
+}
+.recommend-item-1{
+    background-color: #36315A;
+    width: 65%;
+    height: 30rem;
+}
+.recommend-item-2{
+    width: 34%;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+}
+.recommend-item-2-1{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    width: 100%;
+}
+.recommend-item-2-1-item{
+    height: 100%;
+    width: 49%;
+    background-color: #36315A;
+}
+.recommend-item-2-2{
+    height: 59%;
+    width: 100%;
+    background-color: #36315A;
+}
+.catagories-box{
+    height: 16rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.catagories-item{
+    background-color: #36315A;
+    width: 24%;
+}
+.catagories-item-info{
+    position: relative;
+    top: 75%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.catagories-item-cap{
+    font-size: 1.4rem;
+}
+.allnews-captions{
+    display: flex;
+    justify-content: space-between;
+}
+.allnews-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.allnews-item{
+    background-color: #36315A;
+    width: 24%;
+    height: 25rem;
+    margin-top: 1rem;
+}
+.allnews-item-info{
+    position: relative;
+    top: 85%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.allnews-item-cap{
+    font-size: 1.4rem;
+}
+.footer{
+    height: 20rem;
+    background-color: #36315A;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
