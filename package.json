@@ -18,6 +18,7 @@
   "homepage": "https://github.com/CyberDoctorS2/SimpleStartUp#readme",
   "description": "",
   "devDependencies": {
+    "nodemon": "^2.0.2",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   },
