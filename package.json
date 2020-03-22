@@ -1,0 +1,27 @@
+{
+  "name": "SimpleStartUp",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberDoctorS2/SimpleStartUp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyberDoctorS2/SimpleStartUp/issues"
+  },
+  "homepage": "https://github.com/CyberDoctorS2/SimpleStartUp#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
